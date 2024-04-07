@@ -77,3 +77,26 @@
           Git add README.md
           Git commit -m  modified README for the third feature of String array sorting  
           Git push origin master
+          
+### 5. Merge branches to master 
+       a. Create a pull request in GitHub from the feature branch to the master branch, and merge it.
+          Git checkout iteration0_IntegerArraySort
+          Git pull origin iteration0_IntegerArraySort
+          Git checkout master
+          Git merge iteration0_IntegerArraySort
+
+          Git checkout iteration1_StringArraySort
+          Git pull origin iteration1_StringArraySort
+          Git checkout master
+          Git merge iteration1_StringArraySort
+          Git commit -m “merge branches to master” 
+          Git push origin master
+
+          
+       b. Pull the updated master branch on your local machine and make sure it updates with the code from GitHub. 
+         If another member joins to develop the project, the project can be cloned to local. 
+           Git clone https://github.com/WeijunShi/INFO4190_ArraySort_JavaProject.git
+           cd WeijunShi-INFO4190_ArraySort_JavaProject
+           Git pull origin master
+           Git add README.md
+           Git commit -m "modified README by another member"
