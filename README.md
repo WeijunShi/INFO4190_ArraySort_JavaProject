@@ -36,3 +36,24 @@
       Git add README.md
       Git commit -m  modified README for the first feature of integer array validation  
       Git push origin master
+      
+      
+### 3. Set up a new branch named named iteration0_IntegerArraySort to implement a new feature of IntegerArraySort  
+      Building one new branch named iteration0_IntegerArraySort 
+          Git branch iteration0_IntegerArraySort
+          Git checkout iteration0_IntegerArraySort
+          
+      Creating integreArraySort function    
+          Git add src\IntegerArraySort.java
+          Git commit -m  created a new branch of iteration0, and added IntegerArraySort.java  
+          Git push origin iteration0_IntegerArraySort
+          Git branch  (show list of branch)
+          
+      Implementing JUnit test for current feature
+          Git add Test_IntegerArraySorting.java
+          Git commit -m  added JUnit test file as Test_IntegerArraySorting.java  
+          Git push origin iteration0_IntegerArraySort
+          Git checkout master
+          Git add README.md
+          Git commit -m  modified README for the second feature of Integer array sorting  
+          Git push origin master
