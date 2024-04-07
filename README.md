@@ -57,3 +57,23 @@
           Git add README.md
           Git commit -m  modified README for the second feature of Integer array sorting  
           Git push origin master
+          
+### 4. Creating another new branch named iteration1_StringArraySort for a new feature of string array sort.
+       Building new branch of iteration1_StringArraySort
+          Git branch iteration1_StringArraySort
+          Git checkout iteration1_StringArraySort
+          
+       Creating sttinhArraySort function 
+          Git add src\StringArraySort.java
+          Git commit -m  created a new branch of iteration1, and added StringArraySort.java  
+          Git push origin iteration1_IntegerArraySort
+          Git add Test_StringArraySorting.java
+          Git commit -m  added JUnit test file as Test_StringArraySorting.java  
+          Git push origin iteration1_StringArraySort
+          Git branch  (show list of branch)
+          
+       Update instructions on README file   
+          Git checkout master
+          Git add README.md
+          Git commit -m  modified README for the third feature of String array sorting  
+          Git push origin master
